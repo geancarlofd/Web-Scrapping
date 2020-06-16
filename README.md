@@ -1,10 +1,13 @@
 PROJETO 2
 
+
+
 WEB SCRAP
 
 node.js
 
 Comandos:
+
 cd server
 
 npm init -y
