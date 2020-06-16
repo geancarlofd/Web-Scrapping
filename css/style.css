@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px 5% 25px;
+}
+
+.bar {
+    padding-top: 20px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    width: 15%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.button1:hover {
+    background-color: #f3581d;
+    color: white;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.button2:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button3 {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.button3:hover {
+    background-color: #f3b11d;
+    color: white;
+}
