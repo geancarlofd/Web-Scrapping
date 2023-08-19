@@ -1,6 +1,6 @@
-# Projeto 2 - Web Scrap
+# Web Scrapping
 
-Este é o readme do Projeto 2, que se trata de um aplicativo de web scraping usando Node.js. O projeto utiliza diversas bibliotecas e tecnologias para coletar informações de páginas da web.
+Este projeto trata-se de um aplicativo de web scraping usando Node.js. O projeto utiliza diversas bibliotecas e tecnologias para coletar informações de páginas da web.
 
 ## Tecnologias Utilizadas
 
