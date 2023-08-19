@@ -1,26 +1,44 @@
-PROJETO 2
+# Projeto 2 - Web Scrap
 
+Este é o readme do Projeto 2, que se trata de um aplicativo de web scraping usando Node.js. O projeto utiliza diversas bibliotecas e tecnologias para coletar informações de páginas da web.
 
+## Tecnologias Utilizadas
 
-WEB SCRAP
+- Node.js
+- Express.js
+- Body-parser
+- Puppeteer
+- MySQL
+- TypeORM
 
-node.js
+## Instruções de Uso
 
-Comandos:
+Siga os passos abaixo para executar o projeto em sua máquina:
 
+1. Navegue para o diretório do servidor:
+
+```sh
 cd server
+```
 
+2. Inicialize um novo projeto Node.js (caso ainda não tenha um arquivo `package.json`):
+
+```sh
 npm init -y
+```
 
-npm install express
+3. Instale as dependências necessárias, incluindo o Express, Body-parser, Puppeteer, MySQL e TypeORM:
 
-npm install body-parser
+```sh
+npm install express body-parser puppeteer mysql typeorm
+```
 
-npm install puppeteer
+4. Execute o arquivo `index.js` para iniciar o aplicativo:
 
-npm instal mysql
-
-npm instal typeorm
-
+```sh
 node index.js
+```
 
+## Funcionalidades
+
+Este projeto realiza web scraping utilizando o Puppeteer para extrair informações de páginas da web. Os dados coletados são armazenados em um banco de dados MySQL utilizando o TypeORM para gerenciar as interações com o banco de dados. O Express.js é utilizado para criar uma API que pode ser acessada para iniciar o processo de web scraping e recuperar os dados coletados.
